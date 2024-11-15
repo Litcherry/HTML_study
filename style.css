@@ -1,0 +1,56 @@
+/* 设置页面背景 */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 卡片样式 */
+  .card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  /* 计数显示样式 */
+  #count {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* 按钮样式 */
+  .button {
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: white;
+    text-align: center;
+  }
+  
+  /* 计数按钮样式 */
+  .count-button {
+    background-color: #4caf50;
+  }
+  
+  .count-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* 背景变换按钮样式 */
+  .bg-change-button {
+    background-color: #2196f3;
+  }
+  
+  .bg-change-button:hover {
+    background-color: #1e88e5;
+  }
+  
